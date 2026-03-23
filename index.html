@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=d, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="medias.css">
+    <title>Leandro Nunes</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-container">
+            <a href="#home">Leandro <span>Nunes</span></a>
+        </div>
+
+        <div class="menu-hamburger" id="menu-hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="theme-button" id="theme-button">
+            <span class="icon">🌙</span>
+        </div>
+
+        <nav class="navbar-container" id="navbar-container">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#SobreMim">Sobre</a></li>
+                <li><a href="#Formação">Formação</a></li>
+                <li><a href="#Projetos">Portfólio</a></li>
+                <li><a href="#Contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home-container" id="home">
+        <div class="text-container">
+            <p>Olá, eu sou</p>
+            <h1>Leandro <span>Nunes</span></h1>
+            <p>Desenvolvedor Front-end</p>
+        </div>
+        <div class="image-container">
+            <img src="assets/Gemini_Generated_Image_6i4c6k6i4c6k6i4c.png" alt="">
+        </div>
+    </section>
+
+    <section class="about-container" id="SobreMim">
+        <h2>Sobre Mim</h2>
+        <div class="about-content">
+            <p>
+                Graduando em Análise e Desenvolvimento de Sistemas pela Universidade Uninter. Sou um desenvolvedor
+                apaixonado por transformar ideias em interfaces digitais modernas, funcionais e focadas na experiência
+                do usuário.
+                Sempre em busca de novos desafios e tecnologias de ponta.
+            </p>
+
+            <div class="skills-container">
+                <span class="skill-badge">HTML5</span>
+                <span class="skill-badge">CSS3</span>
+                <span class="skill-badge">JavaScript</span>
+                <span class="skill-badge">React</span>
+                <span class="skill-badge">UI/UX Design</span>
+                <span class="skill-badge">Git/GitHub</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="education-container" id="Formação">
+        <h2>Formação</h2>
+        <div class="education-grid">
+
+            <article class="education-card">
+                <div class="education-year">2025 - 2027</div>
+                <div class="education-info">
+                    <h3>Análise e Desenvolvimento de Sistemas</h3>
+                    <p>Centro Universitário Internacional UNINTER</p>
+                    <span class="status-badge">Cursando</span>
+                </div>
+            </article>
+
+            <article class="education-card">
+                <div class="education-year">2025 - Cursando</div>
+                <div class="education-info">
+                    <h3>Full Stack Clube</h3>
+                    <p>Plataforma de Cursos Online / Escola de Tecnologia</p>
+                    <span class="status-badge">Em andamento</span>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="projects-container" id="Projetos">
+        <h2>Portfólio</h2>
+        <p>Aqui estão alguns dos meus projetos recentes:</p>
+
+        <div class="projects-grid">
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="assets/WhatsApp Image 2026-03-22 at 20.51.36.jpeg"
+                        alt="Preview Projeto Previsão do Tempo.">
+                </div>
+                <div class="project-info">
+                    <h3>Previsão do Tempo</h3>
+                    <p>Projeto de estudo sobre previsão do tempo com HTML e CSS.</p>
+                    <div class="project-techs">
+                        <span>HTML</span> <span>CSS</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="assets/WhatsApp Image 2026-03-22 at 20.52.23.jpeg"
+                        alt="Preview do Formulário de Validação.">
+                </div>
+                <div class="project-info">
+                    <h3>Formulário de Validação</h3>
+                    <p>Projeto de estudo sobre validação de formulários com JavaScript.</p>
+                    <div class="project-techs">
+                        <span>HTML</span> <span>CSS</span> <span>JavaScript</span>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="contact-container" id="Contato">
+        <h2>Contato</h2>
+        <p>Entre em contato comigo</p>
+        <div class="form">
+            <form class="form-contact" id="form-contact">
+                <input required name="name" id="userName" placeholder="Seu nome">
+                <input required name="email" id="userEmail" type="email" placeholder="Seu e-mail">
+                <textarea required name="message" id="userMessage" placeholder="Sua mensagem"></textarea>
+                <button type="submit" id="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Leandro Nunes. Todos os direitos reservados.</p>
+    </footer>
+    <script src="ArquivosJS/mobileMenu.js"></script>
+    <script src="ArquivosJS/formValidation.js"></script>
+    <script src="ArquivosJS/themeSelector.js"></script>
+</body>
+
+</html>
